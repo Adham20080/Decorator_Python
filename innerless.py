@@ -26,9 +26,9 @@ def my_deca(func):
 @my_deca
 def my_func3(a: int):
     if a % 2:
-        print("Toq")
+        print(f"Bu Toq son: {a}")
     else:
-        print("Juft")
+        print(f"Bu Juft son: {a}")
 
 
 my_func3(5)
