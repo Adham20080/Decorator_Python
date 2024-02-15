@@ -7,8 +7,17 @@ def my_deca(func):
     return inner
 
 
-def my_func(): print("Salom Dunyo")
+# def my_func(): print("Salom Dunyo")
 
 
-a = my_deca(my_func)
-a()
+# a = my_deca(my_func)
+# a()
+
+@my_deca
+def my_func2():
+    a = []
+    for i in range(5000000 + 1):
+        a.append(i)
+
+
+my_func2()
