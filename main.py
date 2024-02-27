@@ -16,7 +16,7 @@ print(hello("Ahmadjon"))
 #
 #
 # mul_th = mull(3)
-# mul_tw = mull(5)
+# mul_ff = mull(5)
 # print(mul_th(9))  # 27 # noqa
-# print(mul_tw(3))  # 15 # noqa
-# print(mul_tw(mul_th(2)))  # 30 # noqa
+# print(mul_ff(3))  # 15 # noqa
+# print(mul_ff(mul_th(2)))  # 30 # noqa
